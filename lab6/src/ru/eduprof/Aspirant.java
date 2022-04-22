@@ -2,7 +2,7 @@ package ru.eduprof;
 
 public class Aspirant extends Student {
 
-    public String work;
+    String work;
 
     public Aspirant(String firstName, String lastName, String group, double averageMark, String work) {
         super(firstName, lastName, group, averageMark);
